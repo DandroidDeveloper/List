@@ -16,7 +16,7 @@ public class About extends ActionBarActivity {
         mWebView = (WebView) findViewById(R.id.activity_main_webview);
         WebSettings webSettings = mWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        mWebView.loadUrl("http://dandroiddeveloper.github.io/navDrawerExample.html");
+        mWebView.loadUrl("http://dandroiddeveloper.github.io");
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
