@@ -1,0 +1,6 @@
+    <resources>
+    <!--Color primary 500 from palette colors -->
+    <color name="primary">#03A9F4</color>
+    <!--Color primary dark 700 from palette colors -->
+    <color name="primaryDark">#0288D1</color>
+    </resources>
