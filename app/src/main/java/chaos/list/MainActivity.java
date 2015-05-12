@@ -203,8 +203,8 @@ public class MainActivity extends ActionBarActivity
             list.add("New Item");
             adapter.notifyDataSetChanged();
             AlertDialog.Builder todoTaskBuilder = new AlertDialog.Builder(MainActivity.this);
-            todoTaskBuilder.setTitle("Add Todo Task Item");
-            todoTaskBuilder.setMessage("describe the Todo task...");
+            todoTaskBuilder.setTitle("Add List Item.");
+            todoTaskBuilder.setMessage("Describe the item.");
             final EditText todoET = new EditText(MainActivity.this);
             todoTaskBuilder.setView(todoET);
             todoTaskBuilder.setPositiveButton("Add Task", new DialogInterface.OnClickListener() {
